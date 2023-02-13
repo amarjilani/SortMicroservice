@@ -19,11 +19,12 @@ The server is expecting data in the form of an Array containing the objects to b
 ![image](https://user-images.githubusercontent.com/77746571/218550403-132f0b03-0dd1-45bd-b47b-c24da676f113.png)
 
 The server will respond with JSON data containing the Array and its objects, now sorted by the titles in alphabetical order. For example, the response from the example above:
+
 ![image](https://user-images.githubusercontent.com/77746571/218551219-a9cb3e40-86b9-4b16-80f6-b2d34f4dc0a5.png)
 
 This data can then be used by the application to display the tasks on the UI in the order specified by this data. 
 
-###The UML sequence diagram for this service and how it interacts with an application can be viewed below: 
+##The UML sequence diagram for this service and how it interacts with an application can be viewed below: 
 
 ![microservice UML](https://user-images.githubusercontent.com/77746571/218552689-2eac8f7f-8d05-4c1a-b249-62eeac5f7b94.png)
 
