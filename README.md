@@ -13,9 +13,11 @@ This repo is for a microservice developed for my partner's task management board
 
 ## Sending Requests and Receiving Data
 To send a request, the user must send an HTTP POST request with content type JSON to localhost:5001/sort. The request can be sent through any means, the below example describes a request sent in JavaScript using the Fetch API.
+
 ![image](https://user-images.githubusercontent.com/77746571/218550685-9372f366-3ad7-428f-a4a9-a15acc51ffc6.png)
 
 The server is expecting data in the form of an Array containing the objects to be sorted. Therefore, please ensure that the correct data format is passed in the request. If data is sent in other formats, the service might not run correctly. For example, data should be formatted as so:
+
 ![image](https://user-images.githubusercontent.com/77746571/218550403-132f0b03-0dd1-45bd-b47b-c24da676f113.png)
 
 The server will respond with JSON data containing the Array and its objects, now sorted by the titles in alphabetical order. For example, the response from the example above:
@@ -25,7 +27,7 @@ The server will respond with JSON data containing the Array and its objects, now
 This data can then be used by the application to display the tasks on the UI in the order specified by this data. 
 
 
-**The UML sequence diagram for this service and how it interacts with an application can be viewed below:** 
+## The UML sequence diagram for this service and how it interacts with an application can be viewed below:
 
 ![microservice UML](https://user-images.githubusercontent.com/77746571/218552689-2eac8f7f-8d05-4c1a-b249-62eeac5f7b94.png)
 
