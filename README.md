@@ -25,7 +25,7 @@ The server will respond with JSON data containing the Array and its objects, now
 This data can then be used by the application to display the tasks on the UI in the order specified by this data. 
 
 
-**The UML sequence diagram for this service and how it interacts with an application can be viewed below: 
+**The UML sequence diagram for this service and how it interacts with an application can be viewed below:** 
 
 ![microservice UML](https://user-images.githubusercontent.com/77746571/218552689-2eac8f7f-8d05-4c1a-b249-62eeac5f7b94.png)
 
